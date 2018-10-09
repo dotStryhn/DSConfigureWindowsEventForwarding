@@ -2,7 +2,7 @@
 
 <#
    .SYNOPSIS
-    ConfigurationScript for Windows Event Forwarding
+    Configuration-Script for Windows Event Forwarding
    .PARAMETER LogSize
     Defines the size of the LogFile, if not set Default is 500mb
    .EXAMPLE
