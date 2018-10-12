@@ -6,14 +6,14 @@
    .PARAMETER LogSize
     Defines the size of the LogFile, if not set Default is 500mb
    .EXAMPLE
-    ./Configure-DSWindowsEventForwarding.ps1 -LogSize 50mb
+    ./DSConfigureWindowsEventForwarding.ps1 -LogSize 50mb
     Configures WEFS and the associated log-file to 50MB
     ny logfil generes.
    .Notes
-    Name:       Configure-DSWindowsEventForwarding.ps1
+    Name:       DSConfigureWindowsEventForwarding.ps1
     Author:     Tom Stryhn (@dotStryhn)
    .Link
-    https://github.com/dotStryhn/DSEventLogManagement
+    https://github.com/dotStryhn/DSConfigureWindowsEventForwarding
     http://dotstryhn.dk
 #>
 param(
